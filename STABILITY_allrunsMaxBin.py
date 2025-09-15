@@ -92,7 +92,7 @@ def main(DET: int, run_type: str, cmnd_name: str, nbins: int):
     GRAPH.GetXaxis().SetLimits(0, LEN)
     graph2.Draw("*L SAME")
     c_r2.Update()
-    c_r2.SaveAs("./OUTPUT/max_bin.png")
+    c_r2.SaveAs(f"./OUTPUT/Stability_det{DET}_ {run_type}.png")
 
 
 if __name__ == "__main__":

@@ -225,6 +225,18 @@ cd CuTransmission_analysis
 
 ### Bash
 
+Setup bindings with:
+
+```bash
+python setup.py build_ext --inplace
+```
+Or:
+
+```bash
+pip install .
+```
+
+
 Make the launcher executable (one time only):
 
 ```bash
@@ -295,3 +307,4 @@ docker rm container_name
 
 ***Note***: `sudo` permissions could be required for all these steps. 
 
+***Note***: This project has been tested on Linux and macOS.
