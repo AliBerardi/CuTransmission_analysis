@@ -1,0 +1,29 @@
+#parameters for Efficiency_plot_runlists.C
+
+#Amplitude cuts
+cut_a_det1 = 5.0e+3;
+cut_a_det2 = 6.0e+3;
+cut_a_det3 = 5.5e+3;
+cut_a_det4 = 4.5e+3;
+cut_a_det7 = 6.0e+3;
+cut_a_det8 = 6.5e+3;
+
+#data path
+prefix = root://eospublic.cern.ch///eos/experiment/ntof/processing/official/done/run121
+suffix = .root
+
+#run lists
+runlist1 = 574, 575, 576;
+runlist2 = 597, 598, 599;
+runlist3 = 614, 615, 616;
+runlist4 = 637, 638, 639;
+runlist5 = 657, 658, 659;
+runlist6 = 674, 675, 676;
+runlist7 = 703, 704, 705;
+runlist8 = 728, 729, 730;
+runlist9 = 744, 745, 746;
+runlist10 = 760, 761, 762;
+runlist11 = 772, 774, 775;
+runlist12 = 799, 800, 801;
+runlist13 = 827, 828, 829;
+runlist14 = 849, 850, 851;
