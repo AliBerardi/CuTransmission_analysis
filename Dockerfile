@@ -24,7 +24,7 @@ ENV PATH="$VENV/bin:$PATH"
 RUN python -m pip install --upgrade pip setuptools wheel && \
     pip install --no-cache-dir numpy pandas uproot pybind11
 
-WORKDIR /SCexam
+WORKDIR /CuTransmission_analysis
 COPY . .
 RUN python setup.py build_ext --inplace
 RUN chmod +x run_codes.sh
