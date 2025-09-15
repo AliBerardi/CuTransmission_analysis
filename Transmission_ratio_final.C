@@ -61,7 +61,7 @@ void Transmission_ratio_final(string cmnd_filename)
 {
 
 	// import variables from txt file
-	ConfigReader cfg(cmnd_filename); //"Transmission_ratio_final.cmnd"
+	ConfigReader cfg(cmnd_filename);
 
 	// Data path
 	string prefix = cfg.getString("prefix");

@@ -207,4 +207,4 @@ def main(DET: int, run_type: str, cmnd_name: str, nbins: int):
 
 if __name__ == "__main__":
     main(DET=2, run_type="Sout",
-         cmnd_name="./input_files/Histograms_lessRunsforSC.cmnd", nbins=300)
+         cmnd_name="./input_files/Histograms_AllRuns.cmnd", nbins=300)

@@ -96,4 +96,4 @@ def main(DET: int, run_type: str, cmnd_name: str, nbins: int):
 
 
 if __name__ == "__main__":
-    main(2, "Sin", "./input_files/Histograms_prova.cmnd", 150)
+    main(2, "Sin", "./input_files/Histograms_AllRuns.cmnd", 150)

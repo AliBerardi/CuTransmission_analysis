@@ -14,8 +14,8 @@
 - [Examples of output](#examples-of-output)  
 - [Requirements](#requirements)
 - [Usage](#usage)
-  -[Bash](#bash)
-  -[Docker](#docker)
+  - [Bash](#bash)
+  - [Docker](#docker)
 
 ## Introduction
 This project has the purpose of analysing data for the copper transmission measurement performed at n_TOF@CERN.
@@ -44,7 +44,9 @@ In this project, the data acquired throughout the whole experiment is analysed f
 The first analysis is the evaluation of stability of the detectors. For this purpose, several groups of runs spread equally across all the campaign are selected. For each, an histogram filled with their amplitudes is plotted, to see if there is a deformation or shift over time.
 This first plot allows at the same time to get and idea of the behaviour of detectors over the whole measurement campaign and to select an amplitude threshold that is suitable for all the runs.
 Indeed, the typical amplitude spectra presents two peaks, the first being the result of electronic noise and background signals, and the second one, at higher amplitudes, corresponding to the useful signals (see image below).
+
 ![Amplitude_histogram](images/Amplitude.png)
+
 Since the final analysis needs to be performed only for the useful signal, it is essential to define an amplitude threshold that will be used to select only the relevant data. Since the optimal amplitude threshold might change for each detector, because they might have different gains, the former plot is produced for each detector separately. In this way, 6 amplitude thresholds has been chosen, and will be used in the following steps of the analysis.
 
 Then, for each group, the efficiency is computed. This parameter corresponds to the number of counts of the amplitude histogram, normalized to the number of protons, above the threshold. This plot is repeated for each detector separately. This is a way to analyse the stability from a quantitative point of view.

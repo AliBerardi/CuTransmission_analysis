@@ -202,5 +202,5 @@ def Plot(DET: int, run_type: str, cmnd_name: str, nbins: int, first_run_plot: in
 
 if __name__ == "__main__":
     # Histograms(DET=3, run_type="Sin", cmnd_name="./input_files/Histograms_lessRunsforSC.cmnd", nbins=150)
-    Plot(DET=3, run_type="Sin", cmnd_name="./input_files/Histograms_lessRunsforSC.cmnd",
+    Plot(DET=3, run_type="Sin", cmnd_name="./input_files/Histograms_AllRuns.cmnd",
          nbins=150, first_run_plot=5, last_run_plot=11)
