@@ -22,7 +22,7 @@ SCRIPT3="STABILITY_allrunsMaxBin.py"
 SCRIPT4="Histograms_AllRuns.py"
 SCRIPT5="gflash_calibration.py"
 ROOTSCRIPT="Transmission_ratio_final.C"
-ROOT_FIXED_ARG="input_files/Transmission_ratio_lessruns.cmnd"
+ROOT_FIXED_ARG="input_files/Transmission_ratio_final.cmnd"
 
 # -------------------------------
 # Colors
