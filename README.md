@@ -14,6 +14,7 @@
 - [Examples of output](#examples-of-output)  
 - [Requirements](#requirements)
 - [Usage](#usage)
+  - [Importing the repository](#importing-the-repository)
   - [Bash](#bash)
   - [Docker](#docker)
 
@@ -179,7 +180,7 @@ Differently from some other codes in this project that are in Python, C++ is use
 ## Examples of output
 The analysis is performed, as en axample, for detector 2. However, it is possible to repeat it for any other detector (among 1, 2, 3, 4, 7, 8), by simply choosing the corresponding input when calling the main function inside each file.
 Here I present some examples of the plots that should be obtained as the output of this analysis.<br>
-The images below are relative to the analysis of the runlist groups. The amplitude hsitograms with the cut can be observed, along with the efficiency plot.
+The two images below are relative to the analysis of the runlist groups. The amplitude histograms with the cut can be observed, along with the efficiency plot.
 
 ![Runlists_amp_cut](images/Runlists_AmplitudesCUT_det2.png)
 
@@ -213,6 +214,14 @@ This project is based on:
   - pybind11
 
 ## Usage
+
+### Importing the repository
+To get this repository and enter in it:
+
+```bash
+git clone https://github.com/AliBerardi/CuTransmission_analysis.git
+cd CuTransmission_analysis
+``` 
 
 ### Bash
 
@@ -248,8 +257,8 @@ Flags recap: `-p/--plot`, `-e/--eff-all`, `-s/--stability`, `-c/--histograms`, `
 
 
 ### Docker
-There is also the possibility to run the software through docker.
-The following steps illustrates how to run the analysis and observe the results.
+There is also the possibility to run the software through docker.<br>
+The following steps illustrate how to run the analysis and observe the results.
 1. Build the container:
 ```bash
 docker build -t ntof-env .
@@ -269,7 +278,7 @@ Or:
 ```bash
 docker run --name container_name -it ntof-env
 ```
-To run the container with only all the analysis codes.
+To run the container with all the analysis codes.
 
 3. Save outputs and results:
 To save the result(s) of the analysis, located in the `OUTPUT/` folder (*inside the container*):
@@ -284,5 +293,5 @@ It is recommended to delete the container:
 docker rm container_name
 ```
 
-***Note***: `sudo` permissions could be required for all this steps. 
+***Note***: `sudo` permissions could be required for all these steps. 
 
