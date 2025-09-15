@@ -178,8 +178,8 @@ Differently from some other codes in this project that are in Python, C++ is use
 
 
 ## Examples of output
-The analysis is performed, as en axample, for detector 2. However, it is possible to repeat it for any other detector (among 1, 2, 3, 4, 7, 8), by simply choosing the corresponding input when calling the main function inside each file.
-Here I present some examples of the plots that should be obtained as the output of this analysis.<br>
+The analysis is performed, as an axample, for detector 2. However, it is possible to repeat it for any other detector (among 1, 2, 3, 4, 7, 8), by simply choosing the corresponding input when calling the main function inside each file.
+Here I present some examples of the plots that should be obtained as the output of the analysis.<br>
 The two images below are relative to the analysis of the runlist groups. The amplitude histograms with the cut can be observed, along with the efficiency plot.
 
 ![Runlists_amp_cut](images/Runlists_AmplitudesCUT_det2.png)
